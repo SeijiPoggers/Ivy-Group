@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+    overflow-x: hidden;
+}
+
+header{
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 15vh;
+}
+
+.logo{
+    width: 5rem;
+    height: auto;
+    margin-left: 15rem;
+}
+
+.SIvy{
+    height: 5rem;
+    width: auto;
+    margin-right: 15rem;
+}
+
+main{
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(./img/landbc.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100vw 100vh;
+}
+
+.Lleft{
+    margin-left: 10vw;
+}
+
+.gpivy{
+    width: 25vw;
+    height: auto;
+}
+
+.au{
+    color: #fff;
+    font-family: Changa;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.lbutton{
+    color: #fff;
+    font-family: Changa;
+    font-size: 2.55rem;
+    font-weight: 500;
+    text-decoration: none;
+    border:solid #fff 5px;
+    border-radius: 5px;
+    padding: 0 2.7rem;
+}
+
+.lgp{
+    width: 55vw;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.km{
+    margin-top: -3.5rem;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    background-image: url(./img/kbc.png);
+    background-repeat: no-repeat;
+    background-attachment: absolute;
+    background-size: 100% 100%;
+}
+
+.kright{
+    margin: 5vw 20vw;
+}
+
+.ktitle{
+    font-family: Changa;
+    font-size: 4rem;
+    color: #513686;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 2rem;
+}
+
+.kai{
+    font-family: Poppins;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.kbutton{
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+    font-family: Changa;
+    font-weight: 550;
+    background-color: #DD4E80;
+    border-radius: 5px;
+    padding: .2rem 3rem;
+}
