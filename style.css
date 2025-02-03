@@ -81,9 +81,9 @@ main{
 }
 
 .km{
-    margin-top: -3.5rem;
+    margin-top: -3.9rem;
     width: 100vw;
-    height: 100vh;
+    height: 115vh;
     display: flex;
     align-items: flex-start;
     justify-content: flex-end;
@@ -94,7 +94,7 @@ main{
 }
 
 .kright{
-    margin: 5vw 20vw;
+    margin: 10vw 20vw 0 0;
 }
 
 .ktitle{
@@ -122,4 +122,82 @@ main{
     background-color: #DD4E80;
     border-radius: 5px;
     padding: .2rem 3rem;
+}
+
+.squads{
+    margin-top: -3.9rem;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #DD4E80;
+    background-image: url(./img/landbc.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.sleft{
+    width: 50vw;
+    height: 100vh;
+    justify-content: center;
+    background-color: #513686d0;
+}
+
+.stext{
+    margin: 10rem;
+}
+
+.stitle{
+    font-family: Changa;
+    font-size: 6rem;
+    color: #DD4E80;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 2rem;
+}
+
+.sai{
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+.sbutton{
+    text-decoration: none;
+    color: #005596;
+    font-size: 3rem;
+    font-family: Changa;
+    font-weight: 550;
+    background-color: #51B9A3;
+    border-radius: 5px;
+    padding: .8rem 4rem;
+}
+
+.HSIvy{
+    width: 35vw;
+    height: auto;
+    margin: 8rem;
+}
+
+footer{
+    margin: 100vw;
+    height: 30vh;
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ftitle{
+    font-size: 3rem;
+    color: #fff;
+}
+
+.fai{
+    color: #fff;
+    font-size: 1rem;
 }
